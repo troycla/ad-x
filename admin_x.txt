@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
 
-local Window = OrionLib:MakeWindow({IntroText = "Dragon x", IntroIcon ="rbxassetid://1632674502", Name = "Dragon x", HidePremium = false, SaveConfig = true, ConfigFolder = "Dragon_x"})
+local Window = OrionLib:MakeWindow({IntroText = "Admin-x", IntroIcon ="rbxassetid://1632674502", Name = "Admin-x", HidePremium = false, SaveConfig = true, ConfigFolder = "Admin-x"})
 
-OrionLib:MakeNotification({ 	Name = "Dragon x", 	Content = "Welcome to Dragon x", 	Image = "rbxassetid://6961018899", 	Time = 5 })
+OrionLib:MakeNotification({ 	Name = "Admin-x", 	Content = "Welcome to Admin-x", 	Image = "rbxassetid://6961018899", 	Time = 5 })
 
 local Tab = Window:MakeTab({ 	Name = "Main", 	Icon = "rbxassetid://1632674502", 	PremiumOnly = false })
 
