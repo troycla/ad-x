@@ -109,6 +109,18 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/m
 
 end })
 
+Tab:AddButton({ 	Name  = "Blox-fruits-makori", 	Callback = function() 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/NewHubX.txt"))()
+
+end })
+
+Tab:AddButton({ 	Name  = "Blox-fruits-Black-hub", 	Callback = function() 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
+
+end })
+
 local Tab = Window:MakeTab({ 	Name = "lumber-tycoon-2", 	Icon = "rbxassetid://4431164390", 	PremiumOnly = false })
 
 Tab:AddButton({ 	Name = "lumbertycoon", 	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/butter-hub/main/butters%20recode-obfuscated.lua'))("Apple is cute")
