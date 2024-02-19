@@ -181,7 +181,7 @@ Tab:AddParagraph("info","it just a trading scam but you have to reset after usin
 
 local Tab = Window:MakeTab({ 	Name = "brookhaven", 	Icon = "rbxassetid://4431164390", 	PremiumOnly = false })
 
-Tab:AddButton({ 	Name = "Brookhaven", 	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()	end })
+Tab:AddButton({ 	Name = "Brookhaven", 	Callback = function() loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ice-Hub-6414"))()	end })
 
 local Tab = Window:MakeTab({ 	Name = "legends of speed", 	Icon = "rbxassetid://4431164390", 	PremiumOnly = false })
 
