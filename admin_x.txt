@@ -1,3 +1,4 @@
+
 local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
 
 local Window = OrionLib:MakeWindow({IntroText = "Admin-x", IntroIcon ="rbxassetid://1632674502", Name = "Admin-x", HidePremium = false, SaveConfig = true, ConfigFolder = "Admin-x"})
@@ -14,6 +15,8 @@ local Tab = Window:MakeTab({ 	Name = "Other hub's", 	Icon = "rbxassetid://443116
 Tab:AddButton({ 	Name = "Dreadz hub2", 	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts-FR/main/Loader"))()
 
 end })
+
+Tab:AddButton({ 	Name = "ice hub", 	Callback = function() loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ice-Hub-6414"))()	end })
 
 Tab:AddButton({ 	Name = "V hub", 	Callback = function() 		loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VHub"))()	end })
 
@@ -169,7 +172,7 @@ Tab:AddButton({ 	Name = "cook buger 1", 	Callback = function() loadstring(game:H
 
 end })
 
-Tab:AddButton({ 	Name = "cook buger 2", 	Callback = function() 
+Tab:AddButton({ 	Name = "cook buger 2", 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NOOBARMYSCRIPTER/NOOBARMYSCRIPTER/main/cook%20burgers", true))()
 end })
 
@@ -231,6 +234,22 @@ local Tab = Window:MakeTab({ Name = "Muscle legends", Icon = "rbxassetid://44311
 Tab:AddButton({ 	Name = "Muscle legends", 	Callback = function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SandaFrosty/Dino-Script/main/Build-Boat-For-Treasure"))()
+
+end})
+
+local Tab = Window:MakeTab({ Name = "Envade", Icon = "rbxassetid://4431164390", PremiumOnly = false })
+
+Tab:AddButton({ 	Name = "Envade", 	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xdevslasher/xyz.evade/main/xyz.evade.lua",true))()
+
+end})
+
+local Tab = Window:MakeTab({ Name = "Blade Ball", Icon = "rbxassetid://4431164390", PremiumOnly = false })
+
+Tab:AddButton({ 	Name = "Neo. c hub", 	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-V5/main/UpdatedVersion"))();
 
 end})
 
