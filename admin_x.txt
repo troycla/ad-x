@@ -169,6 +169,10 @@ Tab:AddButton({ 	Name = "cook buger 1", 	Callback = function() loadstring(game:H
 
 end })
 
+Tab:AddButton({ 	Name = "cook buger 2", 	Callback = function() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NOOBARMYSCRIPTER/NOOBARMYSCRIPTER/main/cook%20burgers", true))()
+end })
+
 local Tab = Window:MakeTab({ 	Name = "pop it trading", 	Icon = "rbxassetid://4431164390", 	PremiumOnly = false })
 
 Tab:AddButton({ 	Name = "popit gui", 	Callback = function()
