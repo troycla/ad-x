@@ -290,7 +290,7 @@ end})
 local Tab = Window:MakeTab({ 	Name = "Piggy", 	Icon = "rbxassetid://1632674502", 	PremiumOnly = false })
 
 
-Tab:AddButton({ 	Name = "Piggy Peppa", 	Callback = function() loadingstring(game:HttpGet("https://scriptblox.com/raw/Piggy-Peppa-script-8586"))()
+Tab:AddButton({ 	Name = "Piggy Peppa", 	Callback = function() loadstring(game:HttpGet("https://scriptblox.com/raw/Piggy-Peppa-script-8586"))()
 
 end })
 
