@@ -71,6 +71,12 @@ end})
 
 local Tab = Window:MakeTab({ 	Name = "Bed Wars", 	Icon = "rbxassetid://4431164390", 	PremiumOnly = false })
 
+Tab:AddButton({ 	Name = "bed wars God sploit", 	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlSploit/GodSploit/main/LoadString"))()
+
+end})
+
 Tab:AddButton({ 	Name = "bed war", 	Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/UmimGRRG",true))()
 
 end})
