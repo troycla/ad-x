@@ -71,6 +71,14 @@ end})
 
 local Tab = Window:MakeTab({ 	Name = "Bed Wars", 	Icon = "rbxassetid://4431164390", 	PremiumOnly = false })
 
+
+Tab:AddButton({ 	Name = "bed wars Vape V4", 	Callback = function()
+
+loadstring(game:HttpGet("https://scriptblox.com/raw/Vape-V4-For-Roblox_316"))()
+
+end})
+
+
 Tab:AddButton({ 	Name = "bed wars God sploit", 	Callback = function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AlSploit/GodSploit/main/LoadString"))()
@@ -146,7 +154,6 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({ 	Name  = "Blox fruits Esp Script", 	Callback = function()
-
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubEsp"))()
 
