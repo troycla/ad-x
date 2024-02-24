@@ -142,6 +142,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/
 
 end })
 
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+
+Tab:AddButton({ 	Name  = "Blox fruits Esp Script", 	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
+
+end })
+
 local Tab = Window:MakeTab({ 	Name = "lumber tycoon 2", 	Icon = "rbxassetid://4431164390", 	PremiumOnly = false })
 
 Tab:AddButton({ 	Name = "lumbertycoon", 	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/butter-hub/main/butters%20recode-obfuscated.lua'))("Apple is cute")
